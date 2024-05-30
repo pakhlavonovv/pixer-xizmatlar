@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <title>Document</title>
+    <style>
+        .button{
+            margin-top: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn {
+            width: 200px;
+            height: 40px;
+            background-color: #00bafc;
+            border-radius: 5px;
+            font-size: 15px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: all ease 0.4s;
+        }
+
+        .btn:hover {
+            border: 1px solid #00bafc;
+            background-color: white;
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>salom dunyo</h1>
-    <a href="./pages/service.html">service</a>
+    <div class="button">
+        <a href="./pages/service.html"><button class="btn">Xizmatlar bo'limiga o'tish</button></a>
+    </div>
 </body>
+
 </html>
